@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+{{projects}}
+
+ {% for project in projects %}
+
+
+    <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+      <a class="popup-img" href="{{project.imagen.url}}">
+        <img src="{{project.imagen.url}}" alt="img">
+      </a>
+    </div>
+
+
+{% endfor %}
+
+{% endblock %}

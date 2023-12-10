@@ -1,0 +1,1 @@
+en ésta app está todo el frontend hecho con backend
